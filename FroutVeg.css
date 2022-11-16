@@ -1,4 +1,4 @@
- /* Milk Product Page */
+/* Fruits and Vegetables Product Page */
 
  /*menu*/
  .topnav {
@@ -27,7 +27,7 @@
   }
   
   .topnav a.active {
-    background-color: #BDD7EE;
+    background-color: #A9D18E;
     color: white;
   }
 
@@ -42,7 +42,6 @@
     font-family: Arial;
     scroll-behavior: auto;
     background-color:#f2f5f4f1;
-
    
 
     
@@ -55,7 +54,7 @@
     margin: 10%;
     height:90%;
     width: 90%;
-    border-color: #666 #9DC3E6;
+    border-color: #666 #A9D18E;
     border-image: none;
     border-radius: 10% 0 10% 0;
     border-style: solid;
@@ -135,16 +134,14 @@
   }
   
    h2{
-    
-    font-size: 50px;
+    margin-top: 70px;
+    font-size: 100;
     text-align: center;
-    font-family: Secular One;
    
   }
   p{
     text-align: center;
-    font-size: 20px;
-    font-family: "Comic Sans MS";;
+    font-size: 50;
   }
   iframe{
     width:"560";
@@ -155,7 +152,7 @@
 
   }
   .video{
-   
+    font-family: "Comic Sans MS";
     font-size: small;
   }
   
@@ -164,6 +161,7 @@
       font-family:David;
       
     }
+    
 
     .row{
       display: grid;
