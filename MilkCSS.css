@@ -1,0 +1,150 @@
+ /* Milk Product Page */
+
+ /*menu*/
+ .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    width: 100%;
+
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2E75B6;
+    color: white;
+  }
+
+
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    scroll-behavior: auto;
+   
+
+    
+  }
+  
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float:left;
+    padding: 10%;
+    margin: 10%;
+    height:90%;
+    width: 90%;
+    border-color: #666 #2E75B6;
+    border-image: none;
+    border-radius: 10% 0 10% 0;
+    border-style: solid;
+    border-width: 5%;
+    display:grid;
+
+    
+
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: black;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  h5{
+    text-align: center;
+    margin: 0;
+    
+   
+
+  }
+  h4{
+    text-align: center;
+    margin: 0;
+    margin-top: 0.08cm;
+
+  }
+  .row{
+    display: grid;
+    grid-template-columns: auto auto auto ; /*Make the grid smaller than the container*/
+ 
+  }
+  .column.img :hover{
+  
+    max-height: 300px;
+
+  }
+  
+   h2{
+    margin-top: 70px;
+    font-size: 100;
+    text-align: center;
+   
+  }
+  p{
+    text-align: center;
+    font-size: 50;
+  }
+  
+  
+  
+  
+ 
+
+
