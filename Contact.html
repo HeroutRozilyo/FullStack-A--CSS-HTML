@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="Contact.css">
+  <script src="https://kit.fontawesome.com/89b91e2a64.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+
+    <body>
+
+      <nav class="topnav">
+        <a href="MilkProduct.html"> <i class="fas fa-cheese"></i> 
+             Milk products</a>
+        <a  href="FroutVeg.html" ><i class="fas fa-pepper-hot"></i> Fruits and Vegetables</a>
+        <a href="#MeatFish"><i class="fas fa-fish"></i> Meat and fish</a>
+        <a href="#DrinkProduct"><i class="fas fa-glass-martini-alt"></i> Drink</a>
+        <a href="#Bakery"> <i class="fas fa-bread-slice"></i> Bakery</a>
+        <li style="float:right"><a href="html.html" ><i class="fas fa-home"></i> Home</a></li>
+        <li style="float:right"><a href="Contact.html" class="active"><i class="fas fa-phone"></i> Contact Us</a></li>
+      </nav> 
+
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="branch">Supermarket branch</label>
+          <select id="branch" name="branch">
+            <option value="australia">Jerusalem</option>
+            <option value="canada">Beit Shemesh</option>
+            <option value="usa">Efrat</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <!--<input type="submit" value="Submit">-->
+          <hr>
+
+        <section class="submission">
+          <input type="submit" value="Submit"  disabled>
+          
+        </section>
+        
+      
+        </form>
+      </div>
+
+</body>
+
+</html>
