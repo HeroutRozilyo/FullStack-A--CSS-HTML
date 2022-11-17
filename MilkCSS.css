@@ -8,6 +8,7 @@
     top: 0;
     opacity: 1;
     width: 100%;
+    z-index: 99999999;
 
   }
   
@@ -22,7 +23,7 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #f2f5f4f1;
     color: black;
   }
   
@@ -61,6 +62,11 @@
     border-style: solid;
     border-width: 5%;
     display:grid;
+    box-shadow: 0px 0px 20px #9DC3E6;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
 
     
 
@@ -76,6 +82,22 @@
   .column img:hover {
     opacity: 1;
    
+  }
+  .buttonplus{
+    
+    margin: 0;
+    margin-top: 0.08cm;
+    cursor: pointer;
+    border-radius: 20%;
+    border: 2px solid #666;
+    transition-duration: 0.4s;
+  }
+
+  .buttonplus:hover{
+    background-color: #4CAF50; 
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  
   }
   
   /* Clear floats after the columns */
@@ -135,10 +157,11 @@
   }
   
    h2{
-    
+    margin-top: 60px;
+    margin-bottom: 0;
     font-size: 50px;
     text-align: center;
-    font-family: Secular One;
+    font-family: "Secular One";
    
   }
   p{
@@ -147,8 +170,8 @@
     font-family: "Comic Sans MS";;
   }
   iframe{
-    width:"560";
-    height:"315";
+    width:560px;
+    height:315px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -160,10 +183,7 @@
   }
   
   @media only screen and (max-width: 600px) {
-    body{
-      font-family:David;
-      
-    }
+    
 
     .row{
       display: grid;
@@ -172,8 +192,30 @@
     }
 
     iframe{
-      width:"360";
-      height:"115";
+      width:260px;
+      height:115px;
+    }
+    h2{
+      margin-top: 100px;
+      margin-bottom: 0;
+      font-size: 30px;
+      text-align: center;
+      font-family: Secular One;
+     
+    }
+    p{
+      text-align: center;
+      font-size: 10px;
+      font-family: "Comic Sans MS";;
+    }
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 7px 8px;
+      text-decoration: none;
+      font-size: 15px;
+      
     }
   }
 
@@ -189,8 +231,8 @@
    
     }
     iframe{
-      width:"700";
-      height:"500";
+      width:700px;
+      height:500px;
     }
   }
 

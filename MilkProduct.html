@@ -2,13 +2,14 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://kit.fontawesome.com/89b91e2a64.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="MilkCSS.css">
+  <script src="https://kit.fontawesome.com/89b91e2a64.js" crossorigin="anonymous"></script>//for icon
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="MilkCSS.css">
+  
+
 
   <nav class="topnav">
     <a  class="active" href="MilkProduct.html"> <i class="fas fa-cheese"></i> 
@@ -17,6 +18,7 @@
     <a href="#MeatFish"><i class="fas fa-fish"></i> Meat and fish</a>
     <a href="#DrinkProduct"><i class="fas fa-glass-martini-alt"></i> Drink</a>
     <a href="#Bakery"> <i class="fas fa-bread-slice"></i> Bakery</a>
+    <li style="float:right"><a href="html.html"><i class="fas fa-home"></i> Home</a></li>
   </nav> 
 </head>
 
@@ -24,11 +26,12 @@
     
 
 
-     <div class: "div1" >
+     <div class: "div1" id="top" >
         
         <h2>Milk products</h2>
-        <p> For recipes with dairy products <a href="https://www.foodsdictionary.co.il/tag/recipes-with-milk
-          ">Click Here</a></p>
+        <li class:"down"><a href="#product"><i class="fas fa-hand-point-down fa-2x"></i></li>
+        <p> For recipes with dairy products <a href="https://www.foodsdictionary.co.il/tag/recipes-with-milk 
+          " target ="_blank">Click Here</a></p>
       </div>
       <div class="video">
       <p>Why should children include dairy in their daily food intake?</p>
@@ -36,7 +39,7 @@
       
       </div>
       <!-- The four columns -->
-      <div class="row">
+      <div class="row" id="product">
         <div class="column">
             
           <img src="https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/MZV18_Z_P_4122270_1.png
@@ -44,65 +47,86 @@
           " alt="Yellow cheese " style="width:100%" >
           <h4>Yellow cheese </h4>
           <h5>price: 3$</h5>
+          <button type="button" class="buttonplus">
+            <i class="fas fa-cart-plus"> Add to cart</i>
+          </button>
         </div>
         <div class="column">
           <img src="https://storage.googleapis.com/sp-public/gs1-products/1182/large/7290002824466.jpg?_a=1668582884370
           " alt="Danone Bio" style="width:100%" >
           <h4>Danone Bio </h4>
           <h5>price: 1.5$</h5>
+          <button type="button" class="buttonplus">
+            <i class="fas fa-cart-plus"> Add to cart</i>
+          </button>
         </div>
         <div class="column">
           <img src="https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/AAL20_Z_P_4131074_1.png
           " alt="Milk 3%" style="width:100%" >
           <h4>Milk 3%</h4>
           <h5>price: 2$</h5>
+          <button type="button" class="buttonplus">
+            <i class="fas fa-cart-plus"> Add to cart</i>
+          </button>
         </div>
         <div class="column">
           <img src="https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/RKZ26_Z_P_2824640_1.png
           " alt="white cheese" style="width:100%" >
           <h4>white cheese</h4>
           <h5>2.5$</h5>
+          <button type="button" class="buttonplus">
+            <i class="fas fa-cart-plus"> Add to cart</i>
+          </button>
         </div>
         <div class="column">
             <img src="https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/KOX20_Z_P_4120634_1.png
             " alt="white cheese" style="width:100%" >
             <h4>Bulgarian cheese</h4>
             <h5>2.5$</h5>
+            <button type="button" class="buttonplus">
+              <i class="fas fa-cart-plus"> Add to cart</i>
+            </button>
           </div>
           <div class="column">
             <img src="https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/IMM14_Z_P_2133131_1.png
             " alt="white cheese" style="width:100%" >
             <h4>Ricotta cheese</h4>
             <h5>2.5$</h5>
+            <button type="button" class="buttonplus">
+              <i class="fas fa-cart-plus"> Add to cart</i>
+            </button>
           </div>
           <div class="column">
             <img src="https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/ZMW36_Z_P_72940761_1.png
             " alt="white cheese" style="width:100%" >
             <h4>Milky</h4>
             <h5>2.5$</h5>
+            <button type="button" class="buttonplus">
+              <i class="fas fa-cart-plus"> Add to cart</i>
+            </button>
           </div>
           <div class="column">
             <img src="https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/DBN26_Z_P_5838002_1.png
             " alt="Daniela" style="width:100%" >
             <h4>white cheese</h4>
             <h5>2.5$</h5>
+            <button type="button" class="buttonplus">
+              <i class="fas fa-cart-plus"> Add to cart</i>
+            </button>
           </div>
           <div class="column">
             <img src="https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/DQS30_Z_P_55893_1.png
             " alt="butter" style="width:100%" >
             <h4>white cheese</h4>
             <h5>2.5$</h5>
+            <button  class="buttonplus">
+              <i class="fas fa-cart-plus"> Add to cart</i>
+            </button>
           </div>
 
         
       </div>
-      
-      <div class="container">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <img id="expandedImg" style="width:100%">
-        <div id="imgtext"></div>
-      </div>
-      
+      <li class:"up"><a href="#top"><i class="fas fa-hand-point-up fa-2x"></i></li>
       
       
       </body>
