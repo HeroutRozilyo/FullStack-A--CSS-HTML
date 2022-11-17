@@ -1,4 +1,4 @@
-/* Fruits and Vegetables Product Page */
+/* Bakery Product Page */
 
  /*menu*/
  .topnav {
@@ -31,7 +31,7 @@
   }
   
   .topnav a.active {
-    background-color: #A9D18E;
+    background-color: #F8CBAD;
     color: white;
   }
 
@@ -58,13 +58,13 @@
     margin: 10%;
     height:90%;
     width: 90%;
-    border-color: #666 #A9D18E;
+    border-color: #666 #F8CBAD;
     border-image: none;
     border-radius: 10% 0 10% 0;
     border-style: solid;
     border-width: 5%;
     display:grid;
-    box-shadow: 0px  0px 20px #A9D18E;
+    box-shadow: 0px  0px 20px #F8CBAD;
 
     
 
@@ -258,23 +258,3 @@
       height:500px;
     }
   }
-
-  
-
-  
-  
-  
-
-  
-
-  
-  
-  
-
-
-  
-  
-  
- 
-
-
