@@ -4,7 +4,7 @@
   body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("back.png");
+    background-image: url("back5.jpeg");
     background-color: #f2f5f4f1;;
   
   }
@@ -19,14 +19,21 @@
     
 
   }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align:center;
+
+
+  }
   
   
   .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    
-  
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -46,7 +53,6 @@
     display: flex;
     flex-wrap: wrap;
     gap:10%;
-    
     top: 280px;
     position: relative;
   }
@@ -56,6 +62,8 @@
     height: 100%;
     object-fit: cover;
     flex: 1 1 150px;
+    text-align: center;
+
 }
 
 
@@ -66,7 +74,6 @@
     height: 200px;
     border: 3px solid #00539F;
     box-shadow: 0px  0px 15px #f2f2f2;
-   
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     top:110px ;
     
@@ -104,6 +111,7 @@
   .flip-card-front {
     background-color: #e9eff5;
     color: black;
+    text-align: center;
   }
   
   /* Style the back side */
@@ -111,6 +119,7 @@
     background-color: #00539F;;
     color: white;
     transform: rotateY(180deg);
+    text-align: center;
   }
 
   h1{
@@ -131,12 +140,14 @@
     color: #00539F;
     top:50px;
     position: relative;
+    flex:30%
 
 
   }
   p{
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-size: 30px;;
+    text-align: center;
     
   }
   .container>.one>.flip-card>.flip-card-inner>.flip-card-front>.brunch {
@@ -151,8 +162,15 @@
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-size: 20px;
     padding: 10px;
+    text-align: center;
   }
-  
+
+  .one{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
   
    
     
